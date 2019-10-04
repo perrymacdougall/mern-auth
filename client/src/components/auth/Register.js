@@ -85,7 +85,7 @@ class Register extends Component {
                   value={this.state.password2}
                   error={errors.password2}
                   id="password2"
-                  type="password2"
+                  type="password"
                 />
                 <label htmlFor="password2">Confirm Password</label>
               </div>
@@ -95,7 +95,7 @@ class Register extends Component {
                     width: "150px",
                     borderRadius: "3px",
                     letterSpacing: "1.5px",
-                    marginTop: 1rem
+                    marginTop: "1rem"
                   }}
                   type="submit"
                   className="btn btn-large waves-effect waves-light hoverable blue accent-3"
